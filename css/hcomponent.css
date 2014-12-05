@@ -1,0 +1,35 @@
+.content-wrapper.arrow:before {
+    margin-top: -11px;
+    bottom: auto;
+    right: auto;
+    top: 28px;
+    left: -6px;
+    position: absolute;
+    content: "";
+    width: .6em;
+    height: .6em;
+    -webkit-transform: rotate(45deg);
+    /*-moz-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);*/
+    transform: rotate(45deg);
+    z-index: 2;
+    /*-webkit-transition: background .1s linear;
+    -moz-transition: background .1s linear;
+    transition: background .1s linear;*/
+    background-color: #FFF;
+    border-left: 1px solid #EEE;
+    border-bottom: 1px solid #EEE
+}
+.content-wrapper {
+	margin: 56px;
+	padding:15px ;
+	background: red;
+}
+.content-wrapper {
+    min-height: 42px;
+    background: #FFF;
+    position: relative;
+    box-shadow: 1px 1px 0 0 #EEE;
+    border-radius: 3px;
+    border: 1px solid #EEE
+}
